@@ -3,7 +3,7 @@ name: Deploy Jekyll Site
 on:
   push:
     branches:
-      - main # or the branch you use for GitHub Pages
+      - master # or the branch you use for GitHub Pages
 
 jobs:
   build:
