@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: article
 title: Affluenza
-permalink: /affluenza
-header: true
+permalink: /turnout.html
 ---
 
 <html lang="en">
