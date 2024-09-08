@@ -7,6 +7,9 @@ titles:
   en-US   : *EN
   en-CA   : *EN
   en-AU   : *EN
+  it      : &IT       About
+  it-IT   : *IT
+  it-CH   : *IT
   zh-Hans : &ZH_HANS  关于
   zh      : *ZH_HANS
   zh-CN   : *ZH_HANS
@@ -28,50 +31,84 @@ key: page-about
 
 ![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+[//]: # ()
+[//]: # (TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.)
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+[//]: # ()
+[//]: # (```javascript)
 
-## Features
+[//]: # (&#40;&#40;&#41; => console.log&#40;'Hello, World!'&#41;&#41;&#40;&#41;;)
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+[//]: # (```)
 
-## Skins
+[//]: # ()
+[//]: # (## Features)
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+[//]: # ()
+[//]: # (- Responsive)
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+[//]: # (- Semantic HTML)
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+[//]: # (- Skins)
 
-### Highlight Theme
+[//]: # (- Highlight Theme)
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+[//]: # (- Internationalization)
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+[//]: # (- Search)
+
+[//]: # (- Table of contents)
+
+[//]: # (- Authors)
+
+[//]: # (- Additional styles &#40;alert, tag, image, icon, button, grid, etc&#41;)
+
+[//]: # (- Extensions &#40;audios, videos, slides, demos&#41;)
+
+[//]: # (- Markdown enhancements &#40;[MathJax]&#40;https://www.mathjax.org/&#41;, [mermaid]&#40;https://mermaidjs.github.io/&#41;, [chartjs]&#40;http://www.chartjs.org/&#41;&#41;)
+
+[//]: # (- Sharing &#40;[AddToAny]&#40;https://www.addtoany.com/&#41;, [AddThis]&#40;https://www.addthis.com/&#41;&#41;)
+
+[//]: # (- Comments &#40;[Disqus]&#40;https://disqus.com/&#41;, [Gitalk]&#40;https://gitalk.github.io/&#41;, [Valine]&#40;https://valine.js.org/en/&#41;&#41;)
+
+[//]: # (- Pageview &#40;[LeanCloud]&#40;https://leancloud.cn/&#41;&#41;)
+
+[//]: # (- Analytics &#40;[Google Analytics]&#40;https://analytics.google.com/analytics/web/&#41;&#41;)
+
+[//]: # (- RSS &#40;[jekyll-feed]&#40;https://github.com/jekyll/jekyll-feed&#41;&#41;)
+
+[//]: # ()
+[//]: # (## Skins)
+
+[//]: # ()
+[//]: # (TeXt has 6 built-in skins, you can also set up your own skin.)
+
+[//]: # ()
+[//]: # (| `default` | `dark` | `forest` |)
+
+[//]: # (| --- |  --- | --- |)
+
+[//]: # (| ![Default]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg&#41; | ![Dark]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg&#41; | ![Forest]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg&#41; |)
+
+[//]: # ()
+[//]: # (| `ocean` | `chocolate` | `orange` |)
+
+[//]: # (| --- |  --- | --- |)
+
+[//]: # (| ![Ocean]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg&#41; | ![Chocolate]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg&#41; | ![Orange]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg&#41; |)
+
+[//]: # ()
+[//]: # (### Highlight Theme)
+
+[//]: # ()
+[//]: # (TeXt use [Tomorrow]&#40;https://github.com/chriskempson/tomorrow-theme&#41; as the highlight theme.)
+
+[//]: # ()
+[//]: # (| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |)
+
+[//]: # (| --- |  --- | --- | --- |  --- |)
+
+[//]: # (| ![Tomorrow]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png&#41; | ![Tomorrow Night]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png&#41; | ![Tomorrow Night Eighties]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png&#41; | ![Tomorrow Night Blue]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png&#41; | ![Tomorrow Night Bright]&#40;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png&#41; |)
 
 ## Maps embed
 

@@ -30,6 +30,34 @@ en-CA:
 en-AU:
   <<: *EN
 
+## => Italian
+########################
+
+it: &IT
+  SUBSCRIBE               : "Subscribe"
+  READMORE                : "Read more"
+  SEARCH                  : "Cerca"
+  CANCEL                  : "Cancel"
+  VIEWS                   : "views"
+  LAST_UPDATED            : "Last updated"
+  PREVIOUS                : "Precedente"
+  NEXT                    : "Prossimo"
+  ARTICLE_DATE_FORMAT     : "%d %b, %Y"
+  ARTICLE_LIST_DATE_FORMAT: "%b %d"
+  STATISTICS              : "[POST_COUNT] post articles, [PAGE_COUNT] pages."
+  LICENSE_ANNOUNCE        : "This work is licensed under a [LICENSE] license."
+  POST_ON_GITHUB          : "Modifica su Github"
+  FOLLOW_ME               : "Seguimi su [NAME]."
+  FOLLOW_US               : "Seguici su [NAME]."
+  EMAIL_ME                : "Inviami una Email."
+  EMAIL_US                : "Inviaci una Email."
+  COPYRIGHT_DATES         : "2021"
+
+it-IT:
+  <<: *IT
+it-CH:
+  <<: *IT
+
 ## => Simplified Chinese
 ########################
 zh-Hans: &ZH_HANS
