@@ -1,19 +1,14 @@
 ---
 layout: article
 title: Affluenza
-permalink: /turnout.html
+permalink: /turnout
 ---
 
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Affluenza</title>
-    {% include affluence-styles.html %}
-</head>
 <body>
-    {% include affluence-form.html %}
+    {% include turnout-styles.html %}
+    {% include turnout-form.html %}
 
-    <script src="{{ site.baseurl }}/_include/js/affluence.js"></script>
+    <script src="{{ site.baseurl }}/assets/turnout.js"></script>
 </body>
 </html>
