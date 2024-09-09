@@ -1,4 +1,12 @@
+# JetBrains
 .idea/
+
+
+test/
+docs/
+
+# Travis CI
+.travis.yml
 
 *~
 ~*
