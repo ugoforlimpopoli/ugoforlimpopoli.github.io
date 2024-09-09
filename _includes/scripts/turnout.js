@@ -60,3 +60,4 @@ function unregister(name) {
 
 updateOccupantsList();
 setInterval(updateOccupantsList, 20000); // Update every 20 seconds
+
