@@ -5,3 +5,5 @@ layout: home
 ---
 
 # UGO Aula studio
+
+  {% include opening-status.html %}
